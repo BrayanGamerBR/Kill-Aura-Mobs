@@ -1,0 +1,15 @@
+name: Kill Aura Mobs
+version: 1.0.0
+api: [5.0.0]
+main: KillAuraMobs\Main
+author: brayanag2000
+description: Elimina a cuaquier mob con la KillAura, e incluso puedes mandarlos a volar con el palo.
+commands:
+  killaura:
+    description: Activa o desactiva la KillAura para mobs
+    usage: "/killaura"
+    permission: killaura.use
+permissions:
+  killaura.use:
+    description: "Permite al usuario activar o desactivar la KillAura para mobs"
+    default: op
