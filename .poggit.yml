@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/BrayanGamerBR/Kill-Aura-Mobs
+build-by-default: true
+branches:
+- main
+projects:
+  Kill-Aura-Mobs:
+    path: ""
+...
